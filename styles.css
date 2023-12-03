@@ -97,7 +97,7 @@
     padding: 1rem;
 
     display: grid;
-    grid-template-columns: 1fr 400px;
+    grid-template-columns: 1fr 500px;
 
 }
 
@@ -232,6 +232,40 @@
 .trending {
     background-color: white;
     border-radius: 10px;
-    padding: 20px;
+    padding: 40px 20px;
     box-shadow: 2px 2px 3px #888888;
+
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.trend {
+    padding-bottom: 5px;
+}
+
+.trending img {
+    height: 100px;
+    width: auto;
+}
+
+.trending .icon {
+    grid-column: 1 / 2;
+}
+
+.trending h1 {
+    font-weight: bold;
+    font-size: 1.3rem;
+    line-height: .5rem;
+}
+
+.trending p {
+    font-weight: normal;
+    font-size: 1.1rem;
+    color: #707070;
+}
+
+.trend .trendproject {
+    grid-column: 2 / 2;
 }
