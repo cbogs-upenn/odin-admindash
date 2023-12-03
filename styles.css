@@ -97,7 +97,7 @@
     padding: 1rem;
 
     display: grid;
-    grid-template-columns: 1fr 300px;
+    grid-template-columns: 1fr 400px;
 
 }
 
@@ -213,6 +213,20 @@
     border-radius: 10px;
     padding: 20px;
     box-shadow: 2px 2px 3px #888888;
+}
+
+.announcement h1 {
+    font-size: 1rem;
+}
+
+.announcement p {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #888888;
+
+}
+
+.announcement:last-child p {
+    border-bottom: none;
 }
 
 .trending {
