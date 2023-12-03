@@ -7,10 +7,19 @@
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
 }
 
+.icon-crop {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -12px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
 .container {
     display: grid;
     grid-template-columns: 400px 1fr;
-    grid-template-rows: 3rem 100px 1fr;
+    grid-template-rows: 100px 150px 1fr;
 }
 
 .header {
@@ -38,16 +47,47 @@
 
 .headerright {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 75px 1fr;
     justify-items: right;
+}
+
+.userinfo {
+    display: inline;
+}
+
+.usericon img {
+    display: inline;
+    margin: 0 auto;
+    height: 50px;
+    width: auto;
+    padding-right: 20px;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 1.2rem;
+    justify-self: left;
+    padding-left: 20px;
 }
 
 .welcome {
     background-color: white;
     grid-row: 2 / span 1;
     grid-column: 2 / span 1;
-    padding: 1rem;
+    padding-left: 50px;
     border-bottom: 4px solid #88888884;
+}
+
+.welcome h1 {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: .4rem;
+}
+
+.welcome p {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: .5rem;
 }
 
 .dashboard {
