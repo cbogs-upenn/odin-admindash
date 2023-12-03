@@ -88,6 +88,10 @@
     top: 7px;
 }
 
+.nav .bottomnav {
+    align-self: end;
+}
+
 
 .section-title,
 .project-section-title {
@@ -118,19 +122,30 @@
     padding: 20px;
     box-shadow: 2px 2px 3px #888888;
     border-left: 10px solid rgb(253, 194, 43);
+
+    display: grid;
+    grid-template-rows: 1.2rem 1fr 1.2rem;
 }
 
 .project-title {
     font-weight: bold;
     font-size: 1.25em;
+    grid-row: 1 / span 1;
+}
+
+.project-description {
+    grid-row: 2 / span 1;
+    padding-top: 10px;
 }
 
 .iconset {
     display: inline;
+    grid-row: 3 / span 1;
+    justify-self: right;
  }
 
 .iconset img {
-    padding: 0 1rem;
+    padding: 0 .75rem;
     height: 1.5rem;
 }
 
