@@ -3,6 +3,10 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
+.filter-white {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
 .container {
     display: grid;
     grid-template-columns: 300px 1fr;
@@ -74,6 +78,11 @@
     padding-bottom: 1rem;
 }
 
+.nav img {
+    padding-right: 10px;
+    position: relative;
+    top: 7px;
+}
 
 
 .section-title,
