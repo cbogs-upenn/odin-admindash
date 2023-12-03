@@ -74,6 +74,10 @@
     grid-template-rows: 150px 1fr 1fr;
 }
 
+.nav .title {
+    font-size: 1.5rem;
+}
+
 .nav .menuitem {
     padding-bottom: 1rem;
 }
@@ -119,6 +123,15 @@
 .project-title {
     font-weight: bold;
     font-size: 1.25em;
+}
+
+.iconset {
+    display: inline;
+ }
+
+.iconset img {
+    padding: 0 1rem;
+    height: 1.5rem;
 }
 
 .highlights {
