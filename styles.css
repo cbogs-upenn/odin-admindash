@@ -9,7 +9,7 @@
 
 .container {
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 400px 1fr;
     grid-template-rows: 3rem 100px 1fr;
 }
 
@@ -75,11 +75,21 @@
 }
 
 .nav .title {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .nav .menuitem {
     padding-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.nav .menuitem a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav .menuitem a:hover {
+    color: yellow;
 }
 
 .nav img {
@@ -129,13 +139,13 @@
 
 .project-title {
     font-weight: bold;
-    font-size: 1.25em;
+    font-size: 1.5em;
     grid-row: 1 / span 1;
 }
 
 .project-description {
     grid-row: 2 / span 1;
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
 .iconset {
