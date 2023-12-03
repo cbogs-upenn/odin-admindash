@@ -2,6 +2,32 @@
     box-sizing: border-box;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 50px 150px 1fr;
+}
+
+.header {
+    background-color: aquamarine;
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
+}
+
+.welcome {
+    background-color: blueviolet;
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+}
+
 .dashboard {
     background-color: #e9e0e0;
+    grid-row: 3 / span 1;
+    grid-column: 2 / span 1;
+}
+
+.nav {
+    background-color: coral;
+    grid-row: 1 / span 3;
+    grid-column: 1 / span 1;
 }
