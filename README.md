@@ -1,6 +1,6 @@
 # odin-admindash
 Odin Project Intermediate CSS - Admin Dashboard Project
 
-TODO:
+TO DO:
 
-- Separate out Trending cards
+- See if I can fix the responsiveness
