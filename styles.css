@@ -102,7 +102,7 @@
 }
 
 .nav {
-    height: 100vh;
+    height: 100vh;  /*not sure why this doesn't go 100% when the grid overflows*/
     padding: 1rem;
     background-color: rgb(63, 89, 241);
     color: whitesmoke;
